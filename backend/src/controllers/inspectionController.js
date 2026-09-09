@@ -1,0 +1,4 @@
+import {createInspection as create,listInspections,getInspection} from '../services/inspectionService.js';
+export async function createInspection(req,res){try{const item=await create({body:req.body,files:req.files||[],user:req.user});res.status(201).json(item);}catch(e){console.error(e);res.status(500).json({message:e.message});}}
+export async function getAll(req,res){try{res.json(await listInspections(req.user));}catch(e){res.status(500).json({message:e.message});}}
+export async function getOne(req,res){try{const item=await getInspection(req.params.id);if(!item)return res.status(404).json({message:'Inspection not found'});if(req.user.role==='INSPECTOR'&&item.user_id!==req.user.id)return res.status(403).json({message:'Not allowed'});res.json(item);}catch(e){res.status(500).json({message:e.message});}}
