@@ -1,0 +1,12 @@
+import express from 'express';
+import cors from 'cors';
+import path from 'path';
+import { env } from './config/env.js';
+import inspectionRoutes from './routes/inspectionRoutes.js';
+const app=express();
+app.use(cors({origin:env.corsOrigin})); app.use(express.json()); app.use(express.urlencoded({extended:true}));
+app.use('/uploads',express.static(path.resolve('uploads')));
+app.get('/api/health',(_,res)=>res.json({status:'ok',service:'legal-metrology-backend',phase:'1'}));
+app.use('/api/inspections',inspectionRoutes);
+app.use((err,_req,res,_next)=>{console.error(err);res.status(500).json({message:err.message||'Internal server error'});});
+app.listen(env.port,()=>console.log(`Legal Metrology backend running on http://localhost:${env.port}`));
