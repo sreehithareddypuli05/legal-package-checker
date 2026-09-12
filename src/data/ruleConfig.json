@@ -1,0 +1,14 @@
+{
+  "project": "SIH26034",
+  "purpose": "Prototype rule configuration",
+  "fields": [
+    "Manufacturer / Packer",
+    "Net Quantity",
+    "MRP",
+    "Packed / Mfg. Date",
+    "Batch / Lot No.",
+    "Consumer Care",
+    "Country of Origin"
+  ],
+  "note": "Verify all production rules against the current Legal Metrology (Packaged Commodities) Rules and amendments."
+}

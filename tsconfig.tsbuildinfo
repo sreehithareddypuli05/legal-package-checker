@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/types.ts","./src/data/demoData.ts","./src/data/productCatalog.ts","./src/services/extractionService.ts","./src/services/reportService.ts","./src/services/ruleEngine.ts"],"errors":true,"version":"5.8.3"}

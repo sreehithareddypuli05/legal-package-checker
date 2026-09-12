@@ -1,0 +1,222 @@
+export const demoData = {
+  "01_biscuits_compliant.png": {
+    "productName": "SUNRISE MARIE BISCUITS",
+    "manufacturer": "Sunrise Foods Pvt. Ltd.",
+    "netQuantity": "200 g",
+    "mrp": "\u20b950.00",
+    "packedDate": "08/2026",
+    "batchNumber": "B24081",
+    "consumerCare": "1800-111-222",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "02_biscuits_missing_mrp.png": {
+    "productName": "CRISPY MARIE BISCUITS",
+    "manufacturer": "Crispy Foods Pvt. Ltd.",
+    "netQuantity": "150 g",
+    "mrp": "",
+    "packedDate": "08/2026",
+    "batchNumber": "B24082",
+    "consumerCare": "1800-111-223",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "03_rice_compliant.png": {
+    "productName": "GOLDEN HARVEST RICE",
+    "manufacturer": "Golden Harvest Foods",
+    "netQuantity": "5 kg",
+    "mrp": "\u20b9420.00",
+    "packedDate": "07/2026",
+    "batchNumber": "RH7211",
+    "consumerCare": "1800-221-330",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "04_rice_missing_quantity.png": {
+    "productName": "PREMIUM BASMATI RICE",
+    "manufacturer": "Premium Grains Ltd.",
+    "netQuantity": "",
+    "mrp": "\u20b9620.00",
+    "packedDate": "07/2026",
+    "batchNumber": "RH7212",
+    "consumerCare": "1800-221-331",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "05_oil_compliant.png": {
+    "productName": "PUREDROP SUNFLOWER OIL",
+    "manufacturer": "Puredrop Consumer Products",
+    "netQuantity": "1 L",
+    "mrp": "\u20b9145.00",
+    "packedDate": "08/2026",
+    "batchNumber": "SD8101",
+    "consumerCare": "1800-331-440",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "06_oil_bad_mrp.png": {
+    "productName": "FRESHFIELD COOKING OIL",
+    "manufacturer": "Freshfield Foods",
+    "netQuantity": "1 L",
+    "mrp": "145",
+    "packedDate": "08/2026",
+    "batchNumber": "SD8102",
+    "consumerCare": "1800-331-441",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "07_noodles_compliant.png": {
+    "productName": "QUICKBITE NOODLES",
+    "manufacturer": "Quickbite Foods Pvt. Ltd.",
+    "netQuantity": "70 g",
+    "mrp": "\u20b920.00",
+    "packedDate": "09/2026",
+    "batchNumber": "QN9011",
+    "consumerCare": "1800-441-550",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "08_noodles_missing_batch.png": {
+    "productName": "SPICY NOODLES",
+    "manufacturer": "Spicy Bowl Foods",
+    "netQuantity": "70 g",
+    "mrp": "\u20b920.00",
+    "packedDate": "09/2026",
+    "batchNumber": "",
+    "consumerCare": "1800-441-551",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "09_soap_compliant.png": {
+    "productName": "PURECARE BATH SOAP",
+    "manufacturer": "Purecare Home Products",
+    "netQuantity": "100 g",
+    "mrp": "\u20b938.00",
+    "packedDate": "06/2026",
+    "batchNumber": "PC6101",
+    "consumerCare": "1800-551-660",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "10_soap_missing_manufacturer.png": {
+    "productName": "FRESHCARE SOAP",
+    "manufacturer": "",
+    "netQuantity": "100 g",
+    "mrp": "\u20b935.00",
+    "packedDate": "06/2026",
+    "batchNumber": "PC6102",
+    "consumerCare": "1800-551-661",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "11_shampoo_compliant.png": {
+    "productName": "SILKSHINE SHAMPOO",
+    "manufacturer": "Silkshine Personal Care",
+    "netQuantity": "180 ml",
+    "mrp": "\u20b9180.00",
+    "packedDate": "08/2026",
+    "batchNumber": "SS8101",
+    "consumerCare": "1800-661-770",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "12_shampoo_missing_date.png": {
+    "productName": "HAIRGLOW SHAMPOO",
+    "manufacturer": "Hairglow Care Pvt. Ltd.",
+    "netQuantity": "180 ml",
+    "mrp": "\u20b9175.00",
+    "packedDate": "",
+    "batchNumber": "SS8102",
+    "consumerCare": "1800-661-771",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "13_detergent_compliant.png": {
+    "productName": "CLEANMAX DETERGENT",
+    "manufacturer": "Cleanmax Consumer Care",
+    "netQuantity": "1 kg",
+    "mrp": "\u20b9110.00",
+    "packedDate": "08/2026",
+    "batchNumber": "CM8101",
+    "consumerCare": "1800-771-880",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "14_detergent_missing_care.png": {
+    "productName": "ULTRACLEAN POWDER",
+    "manufacturer": "Ultraclean Products",
+    "netQuantity": "1 kg",
+    "mrp": "\u20b9105.00",
+    "packedDate": "08/2026",
+    "batchNumber": "CM8102",
+    "consumerCare": "",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "15_coffee_compliant.png": {
+    "productName": "MORNING CUP COFFEE",
+    "manufacturer": "Morning Cup Foods",
+    "netQuantity": "100 g",
+    "mrp": "\u20b995.00",
+    "packedDate": "07/2026",
+    "batchNumber": "MC7101",
+    "consumerCare": "1800-881-990",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "16_coffee_missing_origin.png": {
+    "productName": "AROMA COFFEE",
+    "manufacturer": "Aroma Beverages Pvt. Ltd.",
+    "netQuantity": "100 g",
+    "mrp": "\u20b990.00",
+    "packedDate": "07/2026",
+    "batchNumber": "MC7102",
+    "consumerCare": "1800-881-991",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "17_flour_compliant.png": {
+    "productName": "GOLDEN WHEAT FLOUR",
+    "manufacturer": "Golden Mills Pvt. Ltd.",
+    "netQuantity": "5 kg",
+    "mrp": "\u20b9260.00",
+    "packedDate": "08/2026",
+    "batchNumber": "GW8101",
+    "consumerCare": "1800-991-100",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "18_flour_missing_fields.png": {
+    "productName": "HOMEBAKE ATTA",
+    "manufacturer": "Homebake Foods",
+    "netQuantity": "",
+    "mrp": "",
+    "packedDate": "08/2026",
+    "batchNumber": "",
+    "consumerCare": "1800-991-101",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "19_spices_compliant.png": {
+    "productName": "RED GOLD CHILLI POWDER",
+    "manufacturer": "Red Gold Spices",
+    "netQuantity": "100 g",
+    "mrp": "\u20b965.00",
+    "packedDate": "08/2026",
+    "batchNumber": "RG8101",
+    "consumerCare": "1800-101-210",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  },
+  "20_spices_missing_mrp_care.png": {
+    "productName": "HOTSPICE CHILLI POWDER",
+    "manufacturer": "Hotspice Foods",
+    "netQuantity": "100 g",
+    "mrp": "",
+    "packedDate": "08/2026",
+    "batchNumber": "HS8102",
+    "consumerCare": "",
+    "countryOfOrigin": "India",
+    "mode": "DEMO"
+  }
+} as const;
